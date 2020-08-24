@@ -53,11 +53,6 @@ body {
     background-color: blue;
 }
 
-/* .landing-page div {
-    background-color: lightgray;
-    border: thin solid black;
-} */
-
 .landing-page div:nth-child(1) {
     background-color: rgb(70, 67, 67);
 }
@@ -180,3 +175,31 @@ body {
     font-size: 12px;
     line-height: 2;
 }
+
+.editor-grids {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px 20px;
+    gap: 10px;
+}
+
+.editor-grids div {
+    background-color: rgb(194, 188, 188);
+}
+
+.grid-pic {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.grid-info h2 {
+    margin-left: 50px;
+    width: 30%;
+}
+
+.color {
+    background-color: rgb(39, 38, 38) !important;
+}
+
+
