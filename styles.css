@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.searchbar {
+    width: 16%;
+    height: 60px;
+    background-color: rgb(20, 20, 20);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 10%;
+    height: 60px;
+    background-color: rgb(59, 58, 58);
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.navbar {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(151, 148, 148);
+}
+
+.navbar li {
+    height: 50px;
+    Width: 70px;
+    margin: 10px;
+    background-color: rgb(75, 72, 72);
+    list-style-type: none;
+    border-radius: 11px;
+}
