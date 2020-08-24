@@ -154,6 +154,13 @@ body {
     background-color: rgb(22, 22, 22);
 }
 
+.ad2 {
+    width: 98%;
+    margin: 5% auto;
+    height: 30vh;
+    background-color: rgba(47, 47, 47, 0.609);
+}
+
 .editor {
     margin: 0 20px;
 }
@@ -171,7 +178,8 @@ body {
     width: 90%;
 }
 
-.editor-info h4, .editor-info p {
+.editor-info h4,
+.editor-info p {
     font-size: 12px;
     line-height: 2;
 }
@@ -193,13 +201,50 @@ body {
     float: left;
 }
 
-.grid-info h2 {
+.grid-info {
     margin-left: 50px;
+}
+
+.grid-info h2 {
     width: 30%;
+}
+
+.grid-info p {
+    font-size: 12px;
+    line-height: 2;
 }
 
 .color {
     background-color: rgb(39, 38, 38) !important;
 }
 
+.ad2 h1,
+.ad2 p {
+    color: white;
+    padding-top: 2%;
+    margin-left: 5%;
+    font-size: 25px;
+    width: 50%;
+}
 
+.button {
+    width: 20%;
+    height: 50px;
+    background-color: rgba(22, 21, 21, 0.876);
+    border: 1px solid white;
+    margin-left: 5%;
+    border-radius: 10px;
+    margin-top: 3%;
+}
+
+.book {
+    float: right;
+    width: 15%;
+    height: 20vh;
+    background-color: rgba(22, 21, 21, 0.876);
+    border: 1px solid white;
+    margin-top: -20%;
+    margin-right: 10%;
+    border-radius: 10px;
+
+}
