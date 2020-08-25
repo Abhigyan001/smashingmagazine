@@ -1,113 +1,117 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto Slab', serif;
-    color: white;
+  font-family: "Roboto Slab", serif;
+  color: white;
 }
 
 .flex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
+/* This is the navbar */
 .searchbar {
-    width: 16%;
-    height: 60px;
-    background-color: rgb(20, 20, 20);
-    margin: 10px;
-    border-radius: 10px;
+  width: 16%;
+  height: 60px;
+  background-color: rgb(20, 20, 20);
+  margin: 10px;
+  border-radius: 10px;
 }
 
 .logo {
-    width: 10%;
-    height: 60px;
-    background-color: rgb(59, 58, 58);
-    margin: 10px;
-    border-radius: 8px;
+  width: 10%;
+  height: 60px;
+  background-color: rgb(59, 58, 58);
+  margin: 10px;
+  border-radius: 8px;
 }
 
 .navbar {
-    width: 100%;
-    height: 30%;
-    background-color: rgb(151, 148, 148);
+  width: 100%;
+  height: 30%;
+  background-color: rgb(151, 148, 148);
 }
 
 .navbar li {
-    height: 50px;
-    width: 70px;
-    margin: 10px;
-    background-color: rgb(75, 72, 72);
-    list-style-type: none;
-    border-radius: 11px;
+  height: 50px;
+  width: 70px;
+  margin: 10px;
+  background-color: rgb(75, 72, 72);
+  list-style-type: none;
+  border-radius: 11px;
 }
 
+/* This is the landing page */
+
 .landing-page {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-    height: 120vh;
-    background-color: blue;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  height: 120vh;
+  background-color: blue;
 }
 
 .landing-page div:nth-child(1) {
-    background-color: rgb(70, 67, 67);
+  background-color: rgb(70, 67, 67);
 }
 
 .landing-page div:nth-child(2) {
-    background-color: rgb(129, 126, 126);
+  background-color: rgb(129, 126, 126);
 }
 
 .landing-page div:nth-child(3) {
-    background-color: rgb(59, 57, 57);
+  background-color: rgb(59, 57, 57);
 }
 
 .landing-page div:nth-child(4) {
-    background-color: rgb(145, 142, 142);
+  background-color: rgb(145, 142, 142);
 }
 
 .landing-paragraphs {
-    position: absolute;
-    background-color: rgb(20, 20, 20);
-    top: 15%;
-    left: 40%;
-    height: 60px;
-    width: 20%;
+  position: absolute;
+  background-color: rgb(20, 20, 20);
+  top: 15%;
+  left: 40%;
+  height: 60px;
+  width: 20%;
 }
 
 .landing-logos {
-    position: absolute;
-    background-color: rgb(53, 50, 50);
-    top: 15%;
-    right: 5%;
-    height: 60px;
-    width: 150px;
+  position: absolute;
+  background-color: rgb(53, 50, 50);
+  top: 15%;
+  right: 5%;
+  height: 60px;
+  width: 150px;
 }
 
 .profpic {
-    width: 10%;
-    height: 60px;
-    background-color: rgba(41, 39, 39, 0.993) !important;
-    border: 1px solid white;
-    margin-top: 30%;
-    margin-left: 5%;
-    border-radius: 10px;
+  width: 10%;
+  height: 60px;
+  background-color: rgba(41, 39, 39, 0.993) !important;
+  border: 1px solid white;
+  margin-top: 30%;
+  margin-left: 5%;
+  border-radius: 10px;
 }
 
 .landing-page h1 {
-    color: white;
-    margin: 5%;
-    width: 60%;
+  color: white;
+  margin: 5%;
+  width: 60%;
 }
 
+/* This is the articles */
 .newarticles {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
 }
 
 .newarticles article:nth-child(1),
@@ -117,218 +121,253 @@ body {
 .newarticles article:nth-child(6),
 .newarticles article:nth-child(7),
 .newarticles article:nth-child(8) {
-    background-color: rgba(70, 67, 67, 0.431);
+  background-color: rgba(70, 67, 67, 0.431);
 }
 
 .newarticles article:nth-child(4),
 .newarticles article:nth-child(9) {
-    background-color: rgba(14, 13, 13, 0.712);
+  background-color: rgba(14, 13, 13, 0.712);
 }
 
 .newarticles h1 {
-    color: white;
-    margin-top: 15%;
-    margin-left: 5%;
-    font-weight: bold;
-    font-size: 30px;
+  color: white;
+  margin-top: 15%;
+  margin-left: 5%;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .newarticles p {
-    color: white;
-    margin-top: 20%;
-    margin-left: 5%;
-    font-size: 19px;
-    line-height: 3;
+  color: white;
+  margin-top: 20%;
+  margin-left: 5%;
+  font-size: 19px;
+  line-height: 3;
 }
 
 .newarticles article {
-    border: 1px solid white;
-    margin: 2%;
-    border-radius: 6px;
-
+  border: 1px solid white;
+  margin: 2%;
+  border-radius: 6px;
 }
+
+/* This is the ad */
 
 .ad {
-    width: 98%;
-    margin: 20px auto;
-    height: 1000px;
-    background-color: rgb(22, 22, 22);
-    border: 2px solid transparent;
+  width: 98%;
+  margin: 20px auto;
+  height: 1000px;
+  background-color: rgb(22, 22, 22);
+  border: 2px solid transparent;
 }
 
-
-
 .button1 {
-    width: 40%;
-    height: 50px;
-    background-color: rgba(221, 217, 217, 0.876);
-    border: 1px solid white;
-    margin: 10% auto;
-    border-radius: 10px;
+  width: 40%;
+  height: 50px;
+  background-color: rgba(221, 217, 217, 0.876);
+  border: 1px solid white;
+  margin: 10% auto;
+  border-radius: 10px;
 }
 
 .button2 {
-    width: 30%;
-    height: 60px;
-    background-color: rgba(221, 217, 217, 0.876);
-    border: 1px solid white;
-    margin: 8% auto;
-    border-radius: 10px;
+  width: 30%;
+  height: 60px;
+  background-color: rgba(221, 217, 217, 0.876);
+  border: 1px solid white;
+  margin: 8% auto;
+  border-radius: 10px;
 }
 
 .ad p {
-    margin: 0 auto;
-    width: 50%
+  margin: 0 auto;
+  width: 50%;
 }
 
 .ad2 {
-    width: 98%;
-    margin: 5% auto;
-    height: 30vh;
-    background-color: rgba(47, 47, 47, 0.609);
+  width: 98%;
+  margin: 5% auto;
+  height: 30vh;
+  background-color: rgba(47, 47, 47, 0.609);
 }
 
+/* This is the editor */
+
 .editor {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 
 .editor-pic {
-    width: 80px;
-    height: 80px;
-    background-color: rgb(39, 38, 38);
-    float: left;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(39, 38, 38);
+  float: left;
 }
 
 .editor-info {
-    margin-left: 6%;
-    background-color: rgb(160, 152, 152);
-    width: 90%;
+  margin-left: 6%;
+  background-color: rgb(160, 152, 152);
+  width: 90%;
 }
 
 .editor-info h4,
 .editor-info p {
-    font-size: 12px;
-    line-height: 2;
+  font-size: 12px;
+  line-height: 2;
 }
 
 .editor-grids {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 30px 20px;
-    gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 30px 20px;
+  gap: 10px;
 }
 
 .editor-grids p {
-    background-color: rgb(194, 188, 188);
-    width: 70%;
+  background-color: rgb(194, 188, 188);
+  width: 70%;
 }
 
 .grid-pic {
-    width: 40px;
-    height: 40px;
-    float: left;
+  width: 40px;
+  height: 40px;
+  float: left;
 }
 
 .grid-info {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .grid-info h2 {
-    width: 30%;
+  width: 30%;
 }
 
 .grid-info p {
-    font-size: 12px;
-    line-height: 2;
+  font-size: 12px;
+  line-height: 2;
 }
 
 .color {
-    background-color: rgb(39, 38, 38) !important;
+  background-color: rgb(39, 38, 38) !important;
 }
+
+/* This is the ad */
 
 .ad2 h1,
 .ad2 p {
-    color: white;
-    padding-top: 2%;
-    margin-left: 5%;
-    font-size: 25px;
-    width: 50%;
+  color: white;
+  padding-top: 2%;
+  margin-left: 5%;
+  font-size: 25px;
+  width: 50%;
 }
 
 .button {
-    width: 20%;
-    height: 50px;
-    background-color: rgba(22, 21, 21, 0.876);
-    border: 1px solid white;
-    margin-left: 5%;
-    border-radius: 10px;
-    margin-top: 3%;
+  width: 20%;
+  height: 50px;
+  background-color: rgba(22, 21, 21, 0.876);
+  border: 1px solid white;
+  margin-left: 5%;
+  border-radius: 10px;
+  margin-top: 3%;
 }
 
 .book {
-    float: right;
-    width: 15%;
-    height: 20vh;
-    background-color: rgba(22, 21, 21, 0.876);
-    border: 1px solid white;
-    margin-top: -20%;
-    margin-right: 10%;
-    border-radius: 10px;
+  float: right;
+  width: 15%;
+  height: 20vh;
+  background-color: rgba(22, 21, 21, 0.876);
+  border: 1px solid white;
+  margin-top: -20%;
+  margin-right: 10%;
+  border-radius: 10px;
 }
 
 .book1 {
-    width: 15%;
-    height: 20vh;
-    background-color: rgba(151, 148, 148, 0.876);
-    border: 1px solid white;
-    margin: 3% auto;
+  width: 15%;
+  height: 20vh;
+  background-color: rgba(151, 148, 148, 0.876);
+  border: 1px solid white;
+  margin: 3% auto;
 }
 
 .guide {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 30px 20px;
-    gap: 15px;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px 20px;
+  gap: 15px;
 }
 
 .guide h2 {
-    margin: 4% auto;
-    width: 70%;
+  margin: 4% auto;
+  width: 70%;
 }
 
 .guide div {
-    background-color: rgba(92, 90, 90, 0.226);
-    border: 1px solid white;
-    border-radius: 10px;
+  background-color: rgba(92, 90, 90, 0.226);
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
 .guide p {
-    background-color: rgb(194, 188, 188);
-    width: 70%;
-    margin: 4% auto;
+  background-color: rgb(194, 188, 188);
+  width: 70%;
+  margin: 4% auto;
 }
 
 .margin1 {
-    margin-top: 3%;
-    margin-left: 14%;
-    margin-bottom: 7%;
-    width: 50%;
+  margin-top: 3%;
+  margin-left: 14%;
+  margin-bottom: 7%;
+  width: 50%;
 }
 
 .margin2 {
-    margin-bottom: 60%;
+  margin-bottom: 60%;
 }
 
 .margin3 {
-    margin: 20% 15%;
+  margin: 20% 15%;
 }
 
 .guide div:nth-child(4) {
-    background-color: rgba(24, 23, 23, 0.698);
+  background-color: rgba(24, 23, 23, 0.698);
 }
 
-
 .guide div:nth-child(4) h2 {
-    margin-top: 30%;
+  margin-top: 30%;
+}
+
+/* This is the footer */
+
+footer {
+  height: 60vh;
+  background-color: rgb(65, 62, 62);
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footer-links {
+  height: 20%;
+  background-color: darkgray;
+  height: 30%;
+  width: 40%;
+  margin: 2% auto;
+}
+
+.footer-imgs {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.footer-imgs div:nth-child(1),
+.footer-imgs div:nth-child(3) {
+  background-color: rgb(19, 17, 17);
+  width: 40%;
+  height: 100px;
+  align-self: flex-end;
+}
+
+.footer-imgs div:nth-child(2) {
+  margin: 0 5%;
 }
